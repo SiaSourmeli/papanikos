@@ -1,0 +1,15 @@
+.heroContainer {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 230px);
+  }
+  
+  .heroImage {
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+  }
+  

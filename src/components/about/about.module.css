@@ -1,0 +1,40 @@
+/*About*/
+.aboutContainer{
+    flex-direction: column;
+    display: flex;
+    gap: 64px;
+    align-items: center;
+  }
+  
+  .textWrap {
+    border-top: 1px solid var(--text-primary);
+    border-bottom: 1px solid var(--text-primary);
+    padding-top: 43px;
+    padding-bottom: 44px;
+  }
+
+  .aboutHeader {
+    margin-bottom: 24px;
+  }
+
+  .aboutText {
+    text-align: left;
+    max-width: 400px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .aboutImage {
+    border-radius: 24px;
+  }
+  
+  @media only screen and (min-width: 1280px) {
+    .aboutContainer {
+      flex-direction: row-reverse;
+      justify-content: center;
+      padding-left: 0;
+      padding-right: 0;
+      gap: 32px;
+    }
+  }
+  
