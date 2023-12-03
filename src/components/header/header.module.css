@@ -1,0 +1,117 @@
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--background);
+    left: 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    transition: var(--header-transition);
+    z-index: 1;
+  }
+  
+  .navbar {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    gap: 16px;
+  }
+
+  .slideUp {
+    transform: translateY(-100%);
+  }
+  
+  .logoHeader {
+    flex: 1;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .logoHeader svg {
+    width: 180px;
+    fill: var(--text-primary);
+  }
+    
+  .navMenu {
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navMenu ul {
+    padding: 40px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+    
+  .navLink {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 32px;
+  }
+  
+  .navLink:hover,
+  .navLink:focus {
+    color: #f88f40;;
+  }
+  
+  .navLink::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: #f88f40;;
+    opacity: 0;
+    transition: all 0.2s;
+  }
+  
+  .navLink:hover::after {
+    opacity: 1;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .navMenu {
+      position: absolute;
+      width: 100%;
+      top: 100%;
+      right: 0;
+      transform: translate3d(0, -100%, 0);
+      transition: var(--header-transition);
+      will-change: transform;
+    }
+  
+    .navMenuOpen {
+      transform: translate3d(0, 0, 0);
+      box-shadow: var(--text-primary) 0px -3px 10px 1px;
+    }
+  
+    .headerContainer::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-color: var(--background);
+    }
+  }
+  
+  @media only screen and (min-width: 769px) {
+    .navMenu ul {
+      padding: 0px;
+      flex-direction: row;
+    }
+  
+    .navLink {
+      font-size: 16px;
+    }
+  }
+  
+  

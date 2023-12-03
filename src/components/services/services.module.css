@@ -1,0 +1,43 @@
+.servicesGrid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.serviceCard {
+  border-bottom: 1px solid var(--text-primary);
+}
+
+.servicesImage {
+  border-radius: 24px;
+}
+
+.serviceTitle {
+  padding-top: 24px;
+  color: #f88f40;
+  font-weight: 400;
+  font-family: "Gothic A1", sans-serif;
+}
+
+.serviceText {
+  /* max-width: 400px; */
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .servicesGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .servicesGrid {
+    grid-template-columns: auto auto auto;
+  }
+}

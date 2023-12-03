@@ -1,35 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: 'Cousine',monospace, 'Gothic A1', sans-serif;
 }
 
-* {
-  box-sizing: border-box;
+ul {
+  list-style-type: none;
 }
 
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+html {
+  scroll-behavior: smooth;
 }
 
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+h1 {
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 56px;
+  font-family: "Gothic A1", sans-serif;
+}
+
+.title {
+  margin-bottom: 24px;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
 
 .container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 135px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
+.underline-hover-effect {
+  position: relative;
+}
+
+.underline-hover-effect::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--text-primary);
+  transition: width 0.25s ease-out;
+}
+
+.underline-hover-effect:hover::before {
+  width: 100%;
+}
+
+.hover-effect-reverse::before {
+  background-color: var(--background);
+}
+
+
+/* Theme */
+:root {
+  --background:#fff;
+  --background-secondary: black;
+  --text-primary: black;  
+  --header-transition: transform 360ms cubic-bezier(.4,0,.2,1);
+}
+
+[data-theme="dark"] {
+  --background: black;
+  --background-secondary:#fff;
+  --text-primary:#fff;
+}
+
+.app {
+  background-color: var(--background);
+  color: var(--text-primary);
+  transition: all .2s;
+}
+
+
+/* buttons */
+.button-40 {
+  display: block;
+  background-color: #fffbfb;
+  border: 1px solid black;
+  border-radius: 0.75rem;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Cousine", monospace;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-align: center;
+  padding: 10px 24px;
+  transition-duration: 0.2s;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  text-decoration: none;
+}
+
+.button-40:hover {
+  background-color: #f88f40;
+  color: white;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.contact-button {
+  display: inline-block;
+}
+
+
+
