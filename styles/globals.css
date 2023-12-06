@@ -10,6 +10,10 @@ body {
     font-family: 'Cousine',monospace, 'Gothic A1', sans-serif;
 }
 
+main {
+  background-color: var(--background);
+}
+
 ul {
   list-style-type: none;
 }
@@ -28,6 +32,8 @@ h1 {
 .title {
   margin-bottom: 24px;
   display: block;
+  color: var(--text-primary);
+
 }
 
 img {
@@ -42,7 +48,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-
+  padding-bottom: 200px;
 }
 
 .container {

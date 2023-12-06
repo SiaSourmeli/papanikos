@@ -9,7 +9,7 @@ function workPage({}) {
       <div>
         <div className={styles.workGrid}>
           {images.map((image) => (
-            <img src={image} className={styles.image}></img>
+            <img src={image} className={styles.image} alt=""></img>
           ))}
         </div>
       </div>
