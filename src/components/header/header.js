@@ -52,7 +52,7 @@ const Header = () => {
 
         <div className={styles.headerContainer}>
           <div className={styles.logoHeader}>
-            <a href="hero" >
+            <a href="http://localhost:3000/" >
                 <Logo />
               </a>
           </div>

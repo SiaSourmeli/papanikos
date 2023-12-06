@@ -26,6 +26,8 @@
   line-height: 24px;
   padding-bottom: 40px;
   margin-top: 20px;
+  color: var(--text-primary);
+
 }
 
 @media only screen and (min-width: 768px) {
