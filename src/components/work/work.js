@@ -1,16 +1,18 @@
+import Link from 'next/link';
 import styles from './work.module.css';
 
 const Work = () => {
     return (
-           
         <div className="container">  
             <div className={styles.workHeader}>
                 <h1 id="work" className="title">Our Work</h1>
-                <div className={styles.buttoWrap}>
-                    <button class="button-40" role="button">Show all</button>
+                <div className={styles.buttonWrap}>
+                    <Link href="/work" className={styles.link}>
+                        <button class="button-40" role="button">Show all</button>
+                    </Link>
+                  
                 </div>
             </div>
-             
 
             <div className={styles.workGrid}>
                 <div>

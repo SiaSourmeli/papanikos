@@ -1,26 +1,11 @@
-  .workHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .buttonWrap {
-    align-items: center;
-    display: flex;
-    padding-bottom: 10px;
-  }
-    
-  .link {
-    text-decoration: none;
-  }
-
-  .workGrid {
-    gap: 20px;
+.workGrid {
+    gap: 10px;
     display: flex;
     flex-direction: column;
+    padding-top: 24px;
   }
-  
-  .workImages {
+
+  .image {
     border-radius: 24px;
   }
 
