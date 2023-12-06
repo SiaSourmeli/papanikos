@@ -52,7 +52,7 @@ const Header = () => {
 
         <div className={styles.headerContainer}>
           <div className={styles.logoHeader}>
-            <a href="#hero" >
+            <a href="hero" >
                 <Logo />
               </a>
           </div>
@@ -60,19 +60,19 @@ const Header = () => {
           <div className={`${styles.navMenu} ${menuOpen ? styles.navMenuOpen : ""}`}>              
               <ul>
                   <li>
-                    <a href="#about" className={styles.navLink}>About us</a>
+                    <a href="/#about" className={styles.navLink}>About us</a>
                   </li>
              
                   <li>
-                    <a href="#services" className={styles.navLink}>Services</a>
+                    <a href="/#services" className={styles.navLink}>Services</a>
                   </li>
 
                   <li>
-                    <a href="#work" className={styles.navLink}>Our Work</a>
+                    <a href="/#work" className={styles.navLink}>Our Work</a>
                   </li>
 
                   <li>
-                    <a href="#contact" className={styles.navLink}>Contact</a>
+                    <a href="/#contact" className={styles.navLink}>Contact</a>
                   </li>
               </ul>
             </div>

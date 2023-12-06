@@ -1,5 +1,8 @@
+import WorkPage from "src/components/workPage";
+
 export default function Work() {
-    return (
-        <div>work Works</div>
-    )
+
+  return (
+        <WorkPage />
+  );
 }

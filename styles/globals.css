@@ -36,6 +36,15 @@ img {
   height: auto;
 }
 
+.pageContainer {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
 .container {
   max-width: 1600px;
   margin-left: auto;
@@ -129,3 +138,7 @@ img {
 
 
 
+.contactHeader {
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
