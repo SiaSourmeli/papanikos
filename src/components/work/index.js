@@ -1,1 +1,0 @@
-export {defaul} from './work';

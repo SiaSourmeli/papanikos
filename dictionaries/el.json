@@ -1,0 +1,53 @@
+{
+  "Header": {
+    "about": "Η εταιρεία",
+    "services": "Υπηρεσίες",
+    "work": "Η  δουλειά μας",
+    "contact": "Επικοινωνία"
+  },
+
+  "About": {
+    "title": "Η εταιρεία",
+    "text": "ουα established plexiglas family-run operation in Alimos, in the southern suburbs of Athens. With years of experience in the field of acrylic fabrication, a commitment to excellence, and a passion for experimentation, our space has nowadays expanded to process other materials and techniques as well, all dedicated to transforming ideas into high quality custom-crafted creations."
+  },
+
+  "Services": {
+    "title": "Υπηρεσίες",
+    "subTtile1": "ε Material Supply",
+    "text1": "ε In our workspace you can find a variety of acrylic samples in various colors, textures and thicknesses, that you can purchase retail in your desired dimensions or choose to work with for custom-made constructions. Also, materials like soft wood or aluminum sheets can be ordered on demand to be processed with our studio’s equipment.",
+    "subTtile2": "ε Precision cutting & engraving",
+    "text2": " ε Our Laser Cutter can perform precision cutting and engraving on a variety of materials: acrylic and other plastics, plywood, MDF, cardboard, paper. The digital design is directly transferred with accuracy on the chosen surface through the computer’s software.",
+    "subTtile3": "ε Custom fabrication",
+    "text3": "ε To fabricate your desired construction we can cut, bolt, screw, bend acrylic pieces using heat, combine them with acrylic glue leaving seamless joints, and most importantly find structural solutions that meet your individual needs.",
+    "subTtile4": "ε Product & Graphic Design",
+    "text4": "ε Our in-house designer prepares your existing digital or physical designs for high quality print and structural results, both aesthetically and in terms of durability. In case you only have a rough idea of what you need, we offer product/graphic design services to help you visualize the outcome through implementation drawings, mockups and models before realizing it.",
+    "subTtile5": "ε Multi-surface digital printing",
+    "text5": "ε Through our UV-flatbed digital printer you can apply a graphic visual of your choice on almost any smooth surface from a vast range of materials. The specially formulated inks of the printer are instantly cured on the selected surface using UV lamps.",
+    "subTtile6": "ε Surface processing",
+    "text6": "ε Complementary to our custom fabrication services is the ability to process acrylic or other material surfaces through sandblasting and polishing equipment, in order to reach the intended texture for your design."
+  },
+
+  "Work": {
+    "title": "Η δουλειά μας",
+    "showAll": "Δείτε περισσότερα"
+  },
+
+  "Contact": {
+    "title": "Επικοινωνία",
+    "tel": "Τηλέφωνο",
+    "map": "Χάρτης",
+    "Directions": "Οδηγίες",
+    "name": "Όνομα",
+    "email": "Email",
+    "text": "Μήνυμα",
+    "formButton": "Submit"
+  },
+
+  "Footer": {
+    "about": "Η εταιρεία",
+    "services": "Υπηρεσίες",
+    "work": "Η  δουλειά μας",
+    "contact": "Επικοινωνία"
+
+  }
+}
