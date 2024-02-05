@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import styles from './header.module.css';
+import styles from "./header.module.css";
 import Button from "../button";
 import Theme from "../theme";
 import Logo from "../logo";
@@ -23,8 +23,8 @@ const Header = () => {
         };
       });
 
-      if (!menuOpen &&  window.scrollY > 250) {
-        setMenuOpen(false)
+      if (!menuOpen && window.scrollY > 250) {
+        setMenuOpen(false);
       }
     };
 
@@ -44,46 +44,62 @@ const Header = () => {
     }
   }, [scrollData]);
 
+  useEffect(() => {
+    // Scroll to top
+    window.scrollTo(0, 0);
+  }, []);
+
   const handleMenuClick = () => {
-    setMenuOpen(!menuOpen)
-  }
+    setMenuOpen(!menuOpen);
+  };
 
   return (
     <header className={`${styles.header} ${hideHeader ? styles.slideUp : ""}`}>
-        <nav className={styles.navbar}>
-
+      <nav className={styles.navbar}>
         <div className={styles.headerContainer}>
           <div className={styles.logoHeader}>
-            <a href="http://localhost:3000/" >
-                <Logo />
-              </a>
+            <a href="http://localhost:3000/">
+              <Logo />
+            </a>
           </div>
 
-          <div className={`${styles.navMenu} ${menuOpen ? styles.navMenuOpen : ""}`}>              
-              <ul>
-                  <li>
-                    <a href="#about" className={styles.navLink}>About</a>
-                  </li>
-             
-                  <li>
-                    <a href="#services" className={styles.navLink}>Services</a>
-                  </li>
+          <div
+            className={`${styles.navMenu} ${
+              menuOpen ? styles.navMenuOpen : ""
+            }`}
+          >
+            <ul>
+              <li>
+                <a href="#about" className={styles.navLink}>
+                  About
+                </a>
+              </li>
 
-                  <li>
-                    <a href="#work" className={styles.navLink}>Our Work</a>
-                  </li>
+              <li>
+                <a href="#services" className={styles.navLink}>
+                  Services
+                </a>
+              </li>
 
-                  <li>
-                    <a href="#contact" className={styles.navLink}>Contact</a>
-                  </li>
-              </ul>
-            </div>
-                <Theme />
-                <Button active={menuOpen} onClick={handleMenuClick} />
-            </div>
-        </nav>
+              <li>
+                <a href="#work" className={styles.navLink}>
+                  Our Work
+                </a>
+              </li>
+
+              <li>
+                <a href="#contact" className={styles.navLink}>
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+          <Theme />
+          <Button active={menuOpen} onClick={handleMenuClick} />
+        </div>
+      </nav>
     </header>
   );
-}
+};
 
 export default Header;

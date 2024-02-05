@@ -3,9 +3,8 @@
 import styles from "./workpage.module.css";
 import { images } from "src/data/images";
 
-function workPage({title}) {
-
-
+function workPage({ title }) {
+  
   return (
     <div className="pageContainer">
       <div>
