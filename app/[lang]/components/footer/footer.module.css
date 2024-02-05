@@ -1,0 +1,93 @@
+
+.footerWrap {
+    background-color: var(--text-primary);
+
+  }
+  
+  .footerContainer{
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 10px;
+      color: var(--background);
+      max-width: 1600px;
+    }
+  
+  .logoFooterContainer {
+    display: flex;
+  }
+
+  .logoFooter {
+    width: 200px;
+    fill: var(--background);
+    flex: 0 0 auto;
+  }
+  
+  .footerBlock {
+    padding-top: 45px;
+    list-style-type: none;
+    font-size: 16px
+  }
+  
+  .footerHeader {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  
+  .footerLink {
+    color: var(--background) ;
+    text-decoration: none;
+
+  }
+
+  .locationWrap {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .locationPin {
+    fill: var(--text-primary);
+  }
+
+  .copyrightsContainer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    color: var(--background);
+    max-width: 1400px;
+  }
+
+  .footerDivider {
+    padding-top: 40px;
+    border-width: 0px 0px thin;
+    border-style: solid;
+  }
+  
+  .copyright {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 13px;
+    padding-left: 30px;
+  }
+  
+  @media only screen and (min-width: 768px) {  
+    .footerContainer {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .footerBlock {
+      padding-right: 20px;
+    }
+  } 
+
+
+
+  
+
+
+
+
+
+
+    

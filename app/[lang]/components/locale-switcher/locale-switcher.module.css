@@ -1,0 +1,5 @@
+.languagesUl {
+    display: flex;
+    gap: 5px;
+    padding-inline-start: 0;
+  }
