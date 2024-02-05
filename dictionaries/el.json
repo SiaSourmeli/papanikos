@@ -36,11 +36,11 @@
     "title": "Επικοινωνία",
     "tel": "Τηλέφωνο",
     "map": "Χάρτης",
-    "Directions": "Οδηγίες",
+    "directions": "Οδηγίες",
     "name": "Όνομα",
     "email": "Email",
     "text": "Μήνυμα",
-    "formButton": "Submit"
+    "formButton": "Αποστολή"
   },
 
   "Footer": {
