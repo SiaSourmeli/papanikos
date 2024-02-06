@@ -7,7 +7,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-    font-family: 'Cousine',monospace, 'Gothic A1', sans-serif;
 }
 
 main {
@@ -26,7 +25,6 @@ h1 {
   font-size: 38px;
   font-weight: 900;
   line-height: 56px;
-  font-family: "Gothic A1", sans-serif;
 }
 
 .title {
@@ -107,6 +105,7 @@ img {
 
 /* buttons */
 .button-40 {
+  font-family: inherit;
   display: block;
   background-color: #fffbfb;
   border: 1px solid black;
@@ -115,7 +114,6 @@ img {
   color: black;
   cursor: pointer;
   flex: 0 0 auto;
-  font-family: "Cousine", monospace;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.5rem;

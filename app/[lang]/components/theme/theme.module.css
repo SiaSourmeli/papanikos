@@ -50,7 +50,7 @@
     transform: translateX(24px);
   }
   
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 800px) {
     .toggleButton {
       padding-top: 0;
     }

@@ -2,29 +2,29 @@
   "Header": {
     "about": "Η εταιρεία",
     "services": "Υπηρεσίες",
-    "work": "Η  δουλειά μας",
+    "work": "Η δουλειά μας",
     "contact": "Επικοινωνία"
   },
 
   "About": {
-    "title": "Η εταιρεία",
-    "text": "ουα established plexiglas family-run operation in Alimos, in the southern suburbs of Athens. With years of experience in the field of acrylic fabrication, a commitment to excellence, and a passion for experimentation, our space has nowadays expanded to process other materials and techniques as well, all dedicated to transforming ideas into high quality custom-crafted creations."
+    "title": "Σχετικά με εμάς", 
+    "text": "Η Papanikos Plexiglas είναι η συνέχεια μιας μακροχρόνιας οικογενειακής επιχείρησης στον Άλιμο, στα νότια προάστια της Αθήνας. Με πολυετή εμπειρία στον τομέα της κατασκευής ακρυλικών, δέσμευση στην δεξιοτεχνία και αρτιότητα, και πάθος για πειραματισμό, στον χώρος μας ενσωματώνουμε πλέον νέες τεχνικές και υλικά, πάντα με γνώμονα την υλοποίηση μιας ιδέας σε υψηλής ποιότητας κατά παραγγελία δημιουργία."
   },
 
   "Services": {
     "title": "Υπηρεσίες",
-    "subTtile1": "ε Material Supply",
-    "text1": "ε In our workspace you can find a variety of acrylic samples in various colors, textures and thicknesses, that you can purchase retail in your desired dimensions or choose to work with for custom-made constructions. Also, materials like soft wood or aluminum sheets can be ordered on demand to be processed with our studio’s equipment.",
-    "subTtile2": "ε Precision cutting & engraving",
-    "text2": " ε Our Laser Cutter can perform precision cutting and engraving on a variety of materials: acrylic and other plastics, plywood, MDF, cardboard, paper. The digital design is directly transferred with accuracy on the chosen surface through the computer’s software.",
-    "subTtile3": "ε Custom fabrication",
-    "text3": "ε To fabricate your desired construction we can cut, bolt, screw, bend acrylic pieces using heat, combine them with acrylic glue leaving seamless joints, and most importantly find structural solutions that meet your individual needs.",
-    "subTtile4": "ε Product & Graphic Design",
-    "text4": "ε Our in-house designer prepares your existing digital or physical designs for high quality print and structural results, both aesthetically and in terms of durability. In case you only have a rough idea of what you need, we offer product/graphic design services to help you visualize the outcome through implementation drawings, mockups and models before realizing it.",
-    "subTtile5": "ε Multi-surface digital printing",
-    "text5": "ε Through our UV-flatbed digital printer you can apply a graphic visual of your choice on almost any smooth surface from a vast range of materials. The specially formulated inks of the printer are instantly cured on the selected surface using UV lamps.",
-    "subTtile6": "ε Surface processing",
-    "text6": "ε Complementary to our custom fabrication services is the ability to process acrylic or other material surfaces through sandblasting and polishing equipment, in order to reach the intended texture for your design."
+    "subTtile1": "Προμήθεια υλικών",
+    "text1": "Στο χώρο εργασίας μας μπορείτε να βρείτε μεγάλη ποικιλία από ακρυλικά σε διάφορα χρώματα, υφές και πάχη, στις επιθυμητές διαστάσεις για τις κατά παραγγελία κατασκευές σας. Επίσης υλικά όπως μαλακό ξύλο ή φύλλα αλουμινίου μπορούν να παραγγελθούν κατά περίπτωση ώστε να υποστούν επεξεργασία με τον εξοπλισμό του εργαστηρίου μας.",
+    "subTtile2": "Κοπή & χάραξη ακριβείας",
+    "text2": " Το Laser Cutter μας μπορεί να εκτελέσει κοπή και χάραξη ακριβείας σε μεγάλη ποικιλία μαλακών υλικών όπως Plexiglas, ξύλο, Darwin, χαρτόνι, κλπ. Το σχέδιο σας μεταφέρεται ψηφιακά απευθείας πάνω στην επιλεγμένη επιφάνεια.",
+    "subTtile3": "Δημιουργία ειδικών κατασκευών",
+    "text3": "Για να κατασκευάσουμε ένα τελικό προϊόν μπορούμε να κόψουμε, να τρυπήσουμε, να συγκολλήσουμε ακρυλικά κομμάτια, να λυγίσουμε χρησιμοποιώντας θερμότητα, και το σημαντικότερο να βρούμε κατασκευαστικές λύσεις που ταιριάζουν στην περίπτωση σας.",
+    "subTtile4": "Σχεδιασμός και Γραφιστικά",
+    "text4": "Εξειδικευμένο άτομο προετοιμάζει τα υπάρχοντα φυσικά ή ψηφιακά σας αρχεία για υψηλής ποιότητας εκτύπωση και κατασκευή, τόσο αισθητικά όσο και από άποψη αντοχής. Σε περίπτωση δεν έχετε σαφή εικόνα του τι χρειάζεστε, προσφέρουμε σχεδιαστικές/γραφιστικές υπηρεσίες για να σας βοηθήσουμε να οπτικοποιήσετε το αποτέλεσμα μέσω ψηφιακών μοντέλων ή μακετών.",
+    "subTtile5": "Ψηφιακή εκτύπωση επιφανειών",
+    "text5": "Μέσω του ψηφιακού UV εκτυπωτή μας, μπορούμε να τυπώσουμε ένα γραφιστικό ή μια εικόνα της επιλογής σας πάνω σε οποιαδήποτε επίπεδη επιφάνεια από μια μεγάλη γκάμα υλικών (plexiglas, καμβάς, χαρτί, αλουμίνιο, κτλ), χρησιμοποιώντας μελάνια που σκληραίνουν απευθείας πάνω στο υλικό μέσω υπεριώδους ακτινοβολίας. ",
+    "subTtile6": "Επεξεργασία επιφάνειας",
+    "text6": "Συμπληρωματικά στις υπηρεσίες μας παρέχεται και η δυνατότητα επεξεργασίας επιφανειών ακρυλικού ή άλλου υλικού μέσω εξοπλισμού αμμοβολής και γυαλίσματος, προκειμένου να επιτευχθεί η επιθυμητή υφή για το τελικό προϊόν."
   },
 
   "Work": {
@@ -44,10 +44,12 @@
   },
 
   "Footer": {
-    "about": "Η εταιρεία",
+    "navigation": "NAVIGATION",
+    "about": "Σχετικά με εμάς",
     "services": "Υπηρεσίες",
-    "work": "Η  δουλειά μας",
-    "contact": "Επικοινωνία"
-
+    "work": "Η δουλειά μας",
+    "contact": "Επικοινωνία",
+    "location": "Ο ΧΩΡΟΣ",
+    "contactUs": "ΕΠΙΚΟΙΝΩΝΙΑ"
   }
 }

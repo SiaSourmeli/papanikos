@@ -1,3 +1,4 @@
+import { headerFont } from "../../layout";
 import styles from "./about.module.css";
 
 const About = ({ dictionary }) => {
@@ -6,7 +7,7 @@ const About = ({ dictionary }) => {
     <div id="about" className="container">
       <div className={styles.aboutContainer}>
         <div className={styles.textWrap}>
-          <h1 className={styles.aboutHeader}>{dictionary.title}</h1>
+          <h1 className={`${styles.aboutHeader} ${headerFont.className}`}>{dictionary.title}</h1>
           <p className={styles.aboutText}>{dictionary.text}</p>
         </div>
 

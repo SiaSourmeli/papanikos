@@ -22,7 +22,7 @@
     align-items: center;
     position: relative;
     gap: 16px;
-    margin-right: 15px;
+    padding-right: 15px;
   }
 
   .slideUp {
@@ -80,7 +80,7 @@
     opacity: 1;
   }
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 800px) {
     .navMenu {
       position: absolute;
       width: 100%;
@@ -104,7 +104,7 @@
     }
   }
   
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 800px) {
     .navMenu ul {
       padding: 0px;
       flex-direction: row;

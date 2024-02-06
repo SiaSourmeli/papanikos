@@ -3,7 +3,7 @@ import Logo from "../logo";
 import Image from "next/image";
 import pinIcon from "../../../../assets/pin.svg";
 
-function Footer() {
+function Footer({ dictionary }) {
     
   const currentYear = new Date().getFullYear();
 
@@ -26,7 +26,7 @@ function Footer() {
               href="#about"
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
-              About
+            { dictionary.about }
             </a>
           </li>
 
@@ -35,7 +35,7 @@ function Footer() {
               href="#services"
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
-              Services
+           { dictionary.services }
             </a>
           </li>
 
@@ -44,7 +44,7 @@ function Footer() {
               href="#work"
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
-              Work
+              { dictionary.work }
             </a>
           </li>
 
@@ -53,14 +53,14 @@ function Footer() {
               href="#contact"
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
-              Contact
+             { dictionary.contact }
             </a>
           </li>
         </ul>
 
         <ul className={styles.footerBlock}>
           <li>
-            <h3 className={styles.footerHeader}>LOCATION</h3>
+            <h3 className={styles.footerHeader}> { dictionary.location }</h3>
           </li>
 
           <li>
@@ -84,7 +84,7 @@ function Footer() {
 
         <ul className={styles.footerBlock}>
           <li>
-            <h3 className={styles.footerHeader}>CONTACT US</h3>
+            <h3 className={styles.footerHeader}>{ dictionary.contactUs }</h3>
           </li>
           <li>
             <a
