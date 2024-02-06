@@ -6,7 +6,7 @@ import Button from "../button";
 import Theme from "../theme";
 import Logo from "../logo";
 
-const Header = () => {
+const Header = ({ dictionary }) => {
   const [scrollData, setScrollData] = useState({
     y: 0,
     lastY: 0,
@@ -44,11 +44,6 @@ const Header = () => {
     }
   }, [scrollData]);
 
-  useEffect(() => {
-    // Scroll to top
-    window.scrollTo(0, 0);
-  }, []);
-
   const handleMenuClick = () => {
     setMenuOpen(!menuOpen);
   };
@@ -71,25 +66,25 @@ const Header = () => {
             <ul>
               <li>
                 <a href="#about" className={styles.navLink}>
-                  About
+                  { dictionary.about }
                 </a>
               </li>
 
               <li>
                 <a href="#services" className={styles.navLink}>
-                  Services
+                { dictionary.services }
                 </a>
               </li>
 
               <li>
                 <a href="#work" className={styles.navLink}>
-                  Our Work
+                { dictionary.work }
                 </a>
               </li>
 
               <li>
                 <a href="#contact" className={styles.navLink}>
-                  Contact
+                { dictionary.contact }
                 </a>
               </li>
             </ul>
