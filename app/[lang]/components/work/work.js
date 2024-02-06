@@ -1,10 +1,11 @@
+import { headerFont } from "../../layout";
 import Link from "next/link";
 import styles from "./work.module.css";
 
 const Work = ({ dictionary }) => {
   return (
     <div className="container">
-      <div className={styles.workHeader}>
+      <div className={`${styles.workHeader} ${headerFont.className}`}>
         <h1 id="work" className="title">
           {dictionary.title}
         </h1>

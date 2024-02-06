@@ -1,3 +1,4 @@
+import { headerFont } from "../../layout";
 import styles from "./contact.module.css";
 
 const Contact = ({ dictionary }) => {
@@ -5,7 +6,7 @@ const Contact = ({ dictionary }) => {
     <div id="contact" className={`${styles.contactContainer} container`}>
       <div className={styles.contact}>
         <div>
-          <h1 className={styles.contactHeader}>{dictionary.title}</h1>
+          <h1 className= {`${styles.contactHeader} ${headerFont.className}`}>{dictionary.title}</h1>
 
           <div>
             <h3 className={styles.contactSub}>Email</h3>

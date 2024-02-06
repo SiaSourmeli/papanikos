@@ -5,6 +5,12 @@
   gap: 40px;
 }
 
+.title {
+  margin-bottom: 24px;
+  display: block;
+  color: var(--text-primary);
+}
+
 .servicesImage {
   border-radius: 24px;
 }
