@@ -1,10 +1,11 @@
+import { headerFont } from "../../layout";
 import styles from "./services.module.css";
 
 const Services = ({ dictionary }) => {
     
   return (
     <div className="container">
-      <h1 id="services" className="title">
+      <h1 id="services" className={`${styles.title} ${headerFont.className}`} >
         {dictionary.title}
       </h1>
 
