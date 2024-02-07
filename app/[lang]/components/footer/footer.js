@@ -17,11 +17,7 @@ function Footer({ dictionary }) {
         </div>
 
         <ul className={styles.footerBlock}>
-          <li>
-            <h3 className={styles.footerHeader}>NAVIGATION</h3>
-          </li>
-
-          <li>
+          <li className={styles.listItem}>
             <a
               href="#about"
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
@@ -30,7 +26,7 @@ function Footer({ dictionary }) {
             </a>
           </li>
 
-          <li>
+          <li className={styles.listItem}>
             <a
               href="#services"
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
@@ -39,7 +35,7 @@ function Footer({ dictionary }) {
             </a>
           </li>
 
-          <li>
+          <li className={styles.listItem}>
             <a
               href="#work"
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
@@ -48,7 +44,7 @@ function Footer({ dictionary }) {
             </a>
           </li>
 
-          <li>
+          <li className={styles.listItem}>
             <a
               href="#contact"
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
