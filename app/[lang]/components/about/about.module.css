@@ -7,12 +7,9 @@
   }
   
   .textWrap {
-    border-top: 1px solid var(--text-primary);
-    border-bottom: 1px solid var(--text-primary);
-    padding-top: 43px;
-    padding-bottom: 44px;
+    /* padding-top: 43px;
+    padding-bottom: 44px; */
     color: var(--text-primary);
-
   }
 
   .aboutHeader {

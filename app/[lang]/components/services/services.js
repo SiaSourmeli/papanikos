@@ -18,7 +18,7 @@ const Services = ({ dictionary }) => {
           />
 
           <div>
-            <h2 className={styles.serviceTitle}>{dictionary.subTtile1}</h2>
+            <h2 className={`${styles.serviceTitle} ${headerFont.className}`}>{dictionary.subTtile1}</h2>
             <p className={styles.serviceText}>{dictionary.text1}</p>
           </div>
         </div>
@@ -31,7 +31,7 @@ const Services = ({ dictionary }) => {
           />
 
           <div>
-            <h2 className={styles.serviceTitle}>{dictionary.subTtile2}</h2>
+            <h2 className={`${styles.serviceTitle} ${headerFont.className}`}>{dictionary.subTtile2}</h2>
             <p className={styles.serviceText}>{dictionary.text2}</p>
           </div>
         </div>
@@ -44,7 +44,7 @@ const Services = ({ dictionary }) => {
           />
 
           <div>
-            <h2 className={styles.serviceTitle}>{dictionary.subTtile3}</h2>
+            <h2 className={`${styles.serviceTitle} ${headerFont.className}`}>{dictionary.subTtile3}</h2>
             <p className={styles.serviceText}>{dictionary.text3}</p>
           </div>
         </div>
@@ -57,7 +57,7 @@ const Services = ({ dictionary }) => {
           />
 
           <div>
-            <h2 className={styles.serviceTitle}>{dictionary.subTtile4}</h2>
+            <h2 className={`${styles.serviceTitle} ${headerFont.className}`}>{dictionary.subTtile4}</h2>
             <p className={styles.serviceText}>{dictionary.text4}</p>
           </div>
         </div>
@@ -70,7 +70,7 @@ const Services = ({ dictionary }) => {
           />
 
           <div>
-            <h2 className={styles.serviceTitle}>{dictionary.subTtile5}</h2>
+            <h2 className={`${styles.serviceTitle} ${headerFont.className}`}>{dictionary.subTtile5}</h2>
             <p className={styles.serviceText}>{dictionary.text4}</p>
           </div>
         </div>
@@ -83,7 +83,7 @@ const Services = ({ dictionary }) => {
           />
 
           <div>
-            <h2 className={styles.serviceTitle}>{dictionary.subTtile6}</h2>
+            <h2 className={`${styles.serviceTitle} ${headerFont.className}`}>{dictionary.subTtile6}</h2>
             <p className={styles.serviceText}>{dictionary.text4}</p>
           </div>
         </div>

@@ -14,17 +14,17 @@
     "Services": {
         "title": "Services",
         "subTtile1": "Material Supply",
-        "text1": "In our workspace you can find a variety of acrylic samples in various colors, textures and thicknesses, that you can purchase retail in your desired dimensions or choose to work with for custom-made constructions. Also, materials like soft wood or aluminum sheets can be ordered on demand to be processed with our studio’s equipment.",
+        "text1": "In our workspace you can find a variety of acrylic samples in various colors, textures and thicknesses, cut in your desired dimensions for custom-made constructions.",
         "subTtile2": "Precision cutting & engraving",
-        "text2": "Our Laser Cutter can perform precision cutting and engraving on a variety of materials: acrylic and other plastics, plywood, MDF, cardboard, paper. The digital design is directly transferred with accuracy on the chosen surface through the computer’s software.",
+        "text2": "Our Laser Cutter can perform precision cutting and engraving on a variety of materials: acrylic and other plastics, plywood, MDF, cardboard, Darwin.",
         "subTtile3": "Custom fabrication",
-        "text3": "To fabricate your desired construction we can cut, bolt, screw, bend acrylic pieces using heat, combine them with acrylic glue leaving seamless joints, and most importantly find structural solutions that meet your individual needs.",
+        "text3": "To fabricate your desired construction we can cut, bolt, screw, bend or glue acrylic pieces, and most importantly find structural solutions that meet your individual needs.",
         "subTtile4": "Product & Graphic Design",
-        "text4": "Our in-house designer prepares your existing digital or physical designs for high quality print and structural results, both aesthetically and in terms of durability. In case you only have a rough idea of what you need, we offer product/graphic design services to help you visualize the outcome through implementation drawings, mockups and models before realizing it.",
+        "text4": "Our in-house designer prepares your existing digital or physical designs for high quality print and structural results, both aesthetically and in terms of durability.",
         "subTtile5": "Multi-surface digital printing",
-        "text5": "Through our UV-flatbed digital printer you can apply a graphic visual of your choice on almost any smooth surface from a vast range of materials. The specially formulated inks of the printer are instantly cured on the selected surface using UV lamps.",
+        "text5": "Through our UV-flatbed digital printer you can apply a graphic visual of your choice on almost any flat surface from a vast range of materials (plexiglas, canvas, paper, aluminum).",
         "subTtile6": "Surface processing",
-        "text6": "Complementary to our custom fabrication services is the ability to process acrylic or other material surfaces through sandblasting and polishing equipment, in order to reach the intended texture for your design."
+        "text6": "Complementary to our custom fabrication services we can process acrylic or other material surfaces through sandblasting and polishing equipment."
     },
 
     "Work": {
@@ -44,7 +44,6 @@
     },
 
     "Footer": {
-        "navigation": "NAVIGATION",
         "about":  "About us",
         "services": "Services",
         "work": "Our Work",
