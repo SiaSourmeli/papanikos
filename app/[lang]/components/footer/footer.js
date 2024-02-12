@@ -1,6 +1,6 @@
 import styles from "./footer.module.css";
 import Logo from "../logo";
-import Link from "next/link";
+
 
 function Footer({ dictionary, locale }) {
   const currentYear = new Date().getFullYear();

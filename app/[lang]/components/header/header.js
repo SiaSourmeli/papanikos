@@ -1,5 +1,4 @@
 "use client";
-import Link from 'next/link'
 import { useEffect, useState } from "react";
 import styles from "./header.module.css";
 import Button from "../button";

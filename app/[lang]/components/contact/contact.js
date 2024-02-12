@@ -1,4 +1,4 @@
-import { headerFont } from "../../layout";
+import { headerFont } from "../../../../fonts";
 import styles from "./contact.module.css";
 
 const Contact = ({ dictionary }) => {
