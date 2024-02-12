@@ -1,10 +1,7 @@
 import styles from "./footer.module.css";
 import Logo from "../logo";
-import Image from "next/image";
-import pinIcon from "../../../../assets/pin.svg";
 
 function Footer({ dictionary }) {
-    
   const currentYear = new Date().getFullYear();
 
   return (
@@ -22,7 +19,7 @@ function Footer({ dictionary }) {
               href="#about"
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
-            { dictionary.about }
+              {dictionary.about}
             </a>
           </li>
 
@@ -31,7 +28,7 @@ function Footer({ dictionary }) {
               href="#services"
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
-           { dictionary.services }
+              {dictionary.services}
             </a>
           </li>
 
@@ -40,7 +37,7 @@ function Footer({ dictionary }) {
               href="#work"
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
-              { dictionary.work }
+              {dictionary.work}
             </a>
           </li>
 
@@ -49,23 +46,28 @@ function Footer({ dictionary }) {
               href="#contact"
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
-             { dictionary.contact }
+              {dictionary.contact}
             </a>
           </li>
         </ul>
 
         <ul className={styles.footerBlock}>
           <li>
-            <h3 className={styles.footerHeader}> { dictionary.location }</h3>
+            <h3 className={styles.footerHeader}> {dictionary.location}</h3>
           </li>
 
           <li>
             <div className={styles.locationWrap}>
-              <Image
-                src={pinIcon}
-                alt="location pin"
+              <svg
                 className={styles.locationPin}
-              />
+                xmlns="http://www.w3.org/2000/svg"
+                width="14px"
+                height="14px"
+                viewBox="0 0 297 297"
+              >
+                <path d="M148.5 0A111 111 0 0 0 37.7 110.8c0 91 99.8 179.9 104 183.6a10.2 10.2 0 0 0 13.6 0c4.2-3.7 104-92.6 104-183.6A111 111 0 0 0 148.5 0zm0 272.7c-22-21.4-90.2-93-90.2-161.9a90.4 90.4 0 0 1 180.4 0c0 68.9-68.2 140.5-90.2 161.9z" />
+                <path d="M148.5 59.2a51.5 51.5 0 0 0-51.3 51.6c0 28.5 23 51.6 51.3 51.6a51.5 51.5 0 0 0 51.3-51.6c0-28.5-23-51.6-51.3-51.6zm0 82.7a31 31 0 0 1-30.8-31.1 31 31 0 0 1 30.8-31.1 31 31 0 0 1 30.8 31.1 31 31 0 0 1-30.8 31.1z" />
+              </svg>
               <a
                 href="https://maps.app.goo.gl/U9KhNbdZDH87ZqpS8"
                 target="_blank"
@@ -80,7 +82,7 @@ function Footer({ dictionary }) {
 
         <ul className={styles.footerBlock}>
           <li>
-            <h3 className={styles.footerHeader}>{ dictionary.contactUs }</h3>
+            <h3 className={styles.footerHeader}>{dictionary.contactUs}</h3>
           </li>
           <li>
             <a

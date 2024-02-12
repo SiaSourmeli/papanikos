@@ -1,3 +1,10 @@
+.title {
+  margin-bottom: 24px;
+  display: block;
+  color: var(--text-primary);
+  padding-top: 100px;
+}
+
 .servicesGrid {
   display: flex;
   flex-direction: column;
@@ -5,29 +12,49 @@
   gap: 40px;
 }
 
-.title {
-  margin-bottom: 24px;
-  display: block;
-  color: var(--text-primary);
+.serviceCard {
+  position: relative;
+  overflow: hidden;
 }
 
-.servicesImage {
+.darken {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .5);
   border-radius: 24px;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.textWrap {
+  display: flex;
+  flex-direction: column;
+  line-height: 18px;
+  padding-left: 20px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 15px;
+  max-width: 90%;
 }
 
 .serviceTitle {
-  padding-top: 24px;
   color: #f88f40;
+  font-size: 20px;
 }
 
 .serviceText {
-  /* max-width: 400px; */
-  font-size: 16px;
-  line-height: 24px;
-  padding-bottom: 40px;
-  margin-top: 20px;
-  color: var(--text-primary);
+  font-size: 14px;
+  margin-top: 10px;
+}
 
+.serviceImage {
+  border-radius: 24px;
+  /* max-height: 750px;
+  width: 100%; */
 }
 
 @media only screen and (min-width: 768px) {
@@ -41,5 +68,44 @@
 @media only screen and (min-width: 1200px) {
   .servicesGrid {
     grid-template-columns: auto auto auto;
+  }
+
+  .textWrap {
+    transform: translateY(70%);
+    transition: all .4s ease-in-out;
+  }
+
+  .serviceCard:hover .textWrap {
+    transform: translateY(0);
+  }
+
+  .darken {
+    opacity: 0;
+  }
+
+  .serviceCard:hover .darken {
+    opacity: 1;
+  }
+
+  .gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(22, 26, 34, 0) 60%, rgba(13, 13, 13, 0.5) 100%);
+    border-radius: 24px;
+  }
+
+  .serviceTitle {
+    font-size: 22px;
+  }
+
+  .serviceText {
+    opacity: 0;
+    font-size: 16px;
+    transition: all .4s ease-in-out;
+  }
+
+  .serviceCard:hover .serviceText {
+    opacity: 1;
   }
 }
