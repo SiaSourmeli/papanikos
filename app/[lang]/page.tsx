@@ -25,7 +25,7 @@ export default async function Home({
       <Hero />
       <About dictionary={dictionary.About} />
       <Services dictionary={dictionary.Services} />
-      <Work dictionary={dictionary.Work} />
+      <Work dictionary={dictionary.Work} locale={lang} />
       <Contact dictionary={dictionary.Contact} />
     </div>
   );

@@ -30,7 +30,7 @@ export default async function Layout({
     <html lang={params.lang} className={cousine.className}> 
       <body> 
         <TopBar />
-        <Header dictionary={dictionary.Header}/>
+        <Header dictionary={dictionary.Header} locale={params.lang} />
         <main>{children}</main>
         <Footer dictionary={dictionary.Footer}/>
       </body>
