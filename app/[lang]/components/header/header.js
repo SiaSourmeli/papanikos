@@ -65,21 +65,21 @@ const Header = ({ dictionary, locale }) => {
           >
             <ul>
               <li>
-                <a href={`/${locale}#about`} className={styles.navLink}>
+                <Link href={`/${locale}#about`} className={styles.navLink}>
                   { dictionary.about }
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href={`/${locale}#services`} className={styles.navLink}>
+                <Link href={`/${locale}#services`} className={styles.navLink}>
                 { dictionary.services }
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href={`/${locale}#work`} className={styles.navLink}>
+                <Link href={`/${locale}#work`} className={styles.navLink}>
                 { dictionary.work }
-                </a>
+                </Link>
               </li>
 
               <li>

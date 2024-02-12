@@ -1,53 +1,51 @@
 import styles from "./footer.module.css";
 import Logo from "../logo";
+import Link from "next/link";
 
-function Footer({ dictionary }) {
+function Footer({ dictionary, locale }) {
   const currentYear = new Date().getFullYear();
 
   return (
     <footer className={styles.footerWrap}>
       <div className={styles.footerContainer}>
         <div className={styles.logoFooterContainer}>
-          <a href="#home" className={styles.logoFooter}>
+          <Link href={`${locale}/`} className={styles.logoFooter}>
             <Logo />
-          </a>
+          </Link>
         </div>
 
         <ul className={styles.footerBlock}>
           <li className={styles.listItem}>
-            <a
-              href="#about"
+            <Link href={`/${locale}#about`}
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
               {dictionary.about}
-            </a>
+            </Link>
           </li>
 
           <li className={styles.listItem}>
-            <a
-              href="#services"
+            <Link href={`/${locale}#services`}
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
               {dictionary.services}
-            </a>
+            </Link>
           </li>
 
           <li className={styles.listItem}>
-            <a
-              href="#work"
+            <Link href={`/${locale}#work`}
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
               {dictionary.work}
-            </a>
+            </Link>
           </li>
 
           <li className={styles.listItem}>
-            <a
-              href="#contact"
+            <Link
+              href={`/${locale}#contact`}
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
               {dictionary.contact}
-            </a>
+            </Link>
           </li>
         </ul>
 

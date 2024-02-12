@@ -32,7 +32,7 @@ export default async function Layout({
         <TopBar />
         <Header dictionary={dictionary.Header} locale={params.lang} />
         <main>{children}</main>
-        <Footer dictionary={dictionary.Footer}/>
+        <Footer dictionary={dictionary.Footer} locale={params.lang}/>
       </body>
     </html>
   );
