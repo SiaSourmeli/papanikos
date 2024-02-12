@@ -2,7 +2,8 @@ import { headerFont } from "../../layout";
 import Link from "next/link";
 import styles from "./work.module.css";
 
-const Work = ({ dictionary }) => {
+const Work = ({ dictionary, locale }) => {
+ 
   return (
     <div className="container">
       <div id="work" className={`${styles.workHeader} ${headerFont.className}`}>
@@ -10,10 +11,8 @@ const Work = ({ dictionary }) => {
           {dictionary.title}
         </h1>
         <div className={styles.buttonWrap}>
-          <Link href="/work" className={styles.link}>
-            <button className="button-40" role="button">
+          <Link href={`${locale}/work`} className={`${styles.link} button-40`}>
               {dictionary.showAll}
-            </button>
           </Link>
         </div>
       </div>

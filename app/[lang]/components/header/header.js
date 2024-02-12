@@ -6,7 +6,7 @@ import Button from "../button";
 import Theme from "../theme";
 import Logo from "../logo";
 
-const Header = ({ dictionary }) => {
+const Header = ({ dictionary, locale }) => {
   const [scrollData, setScrollData] = useState({
     y: 0,
     lastY: 0,
@@ -53,7 +53,7 @@ const Header = ({ dictionary }) => {
       <nav className={styles.navbar}>
         <div className={styles.headerContainer}>
           <div className={styles.logoHeader}>
-            <Link href="/">
+            <Link href={`${locale}/`}>
               <Logo />
             </Link>
           </div>
@@ -65,25 +65,25 @@ const Header = ({ dictionary }) => {
           >
             <ul>
               <li>
-                <Link href="/#about" className={styles.navLink}>
+                <a href={`/${locale}#about`} className={styles.navLink}>
                   { dictionary.about }
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link href="/#services" className={styles.navLink}>
+                <a href={`/${locale}#services`} className={styles.navLink}>
                 { dictionary.services }
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link href="/#work" className={styles.navLink}>
+                <a href={`/${locale}#work`} className={styles.navLink}>
                 { dictionary.work }
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link href="/#contact" className={styles.navLink}>
+                <Link href={`/${locale}#contact`} className={styles.navLink}>
                 { dictionary.contact }
                 </Link>
               </li>
