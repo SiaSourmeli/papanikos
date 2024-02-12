@@ -1,5 +1,5 @@
 "use client";
-
+import Link from 'next/link'
 import { useEffect, useState } from "react";
 import styles from "./header.module.css";
 import Button from "../button";
@@ -53,9 +53,9 @@ const Header = ({ dictionary }) => {
       <nav className={styles.navbar}>
         <div className={styles.headerContainer}>
           <div className={styles.logoHeader}>
-            <a href="http://localhost:3000/">
+            <Link href="/">
               <Logo />
-            </a>
+            </Link>
           </div>
 
           <div
@@ -65,27 +65,27 @@ const Header = ({ dictionary }) => {
           >
             <ul>
               <li>
-                <a href="#about" className={styles.navLink}>
+                <Link href="/#about" className={styles.navLink}>
                   { dictionary.about }
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#services" className={styles.navLink}>
+                <Link href="/#services" className={styles.navLink}>
                 { dictionary.services }
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#work" className={styles.navLink}>
+                <Link href="/#work" className={styles.navLink}>
                 { dictionary.work }
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#contact" className={styles.navLink}>
+                <Link href="/#contact" className={styles.navLink}>
                 { dictionary.contact }
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

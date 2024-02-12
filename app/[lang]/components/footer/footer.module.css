@@ -47,7 +47,7 @@
 }
 
 .locationPin {
-  color: var(--background);
+  fill: var(--background);
 }
 
 .copyrightsContainer {

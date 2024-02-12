@@ -4,6 +4,7 @@
     display: flex;
     gap: 64px;
     align-items: center;
+    padding-top: 100px;
   }
   
   .textWrap {

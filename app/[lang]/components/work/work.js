@@ -5,8 +5,8 @@ import styles from "./work.module.css";
 const Work = ({ dictionary }) => {
   return (
     <div className="container">
-      <div className={`${styles.workHeader} ${headerFont.className}`}>
-        <h1 id="work" className="title">
+      <div id="work" className={`${styles.workHeader} ${headerFont.className}`}>
+        <h1 className="title">
           {dictionary.title}
         </h1>
         <div className={styles.buttonWrap}>
