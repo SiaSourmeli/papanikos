@@ -1,4 +1,4 @@
-import { headerFont } from "../../layout";
+import { headerFont } from "../../../../fonts";
 import styles from "./services.module.css";
 
 const Services = ({ dictionary }) => {

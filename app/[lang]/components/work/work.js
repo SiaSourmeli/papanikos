@@ -1,4 +1,4 @@
-import { headerFont } from "../../layout";
+import { headerFont } from "../../../../fonts";
 import Link from "next/link";
 import styles from "./work.module.css";
 

@@ -1,4 +1,4 @@
-import { Cousine, Roboto } from 'next/font/google'
+import { Cousine } from 'next/font/google'
 
 import "styles/globals.css";
 import TopBar from "./components/top-bar";
@@ -13,8 +13,6 @@ export async function generateStaticParams() {
 }
 
 const cousine = Cousine({ weight: "400", subsets: ['latin', 'greek'], display: 'swap', })
-export const headerFont = Roboto({ weight: "700", subsets: ['latin', 'greek'], display: 'swap', })
-
 
 export default async function Layout({
   children,
