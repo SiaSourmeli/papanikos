@@ -53,9 +53,9 @@ const Header = ({ dictionary, locale }) => {
       <nav className={styles.navbar}>
         <div className={styles.headerContainer}>
           <div className={styles.logoHeader}>
-            <Link href={`${locale}/`}>
+            <a href={`${locale}/`}>
               <Logo />
-            </Link>
+            </a>
           </div>
 
           <div
@@ -65,27 +65,27 @@ const Header = ({ dictionary, locale }) => {
           >
             <ul>
               <li>
-                <Link href={`/${locale}#about`} className={styles.navLink}>
+                <a href={`/${locale}#about`} className={styles.navLink}>
                   { dictionary.about }
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link href={`/${locale}#services`} className={styles.navLink}>
+                <a href={`/${locale}#services`} className={styles.navLink}>
                 { dictionary.services }
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link href={`/${locale}#work`} className={styles.navLink}>
+                <a href={`/${locale}#work`} className={styles.navLink}>
                 { dictionary.work }
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link href={`/${locale}#contact`} className={styles.navLink}>
+                <a href={`/${locale}#contact`} className={styles.navLink}>
                 { dictionary.contact }
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

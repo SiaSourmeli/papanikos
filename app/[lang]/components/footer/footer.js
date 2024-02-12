@@ -9,43 +9,43 @@ function Footer({ dictionary, locale }) {
     <footer className={styles.footerWrap}>
       <div className={styles.footerContainer}>
         <div className={styles.logoFooterContainer}>
-          <Link href={`${locale}/`} className={styles.logoFooter}>
+          <a href={`${locale}/`} className={styles.logoFooter}>
             <Logo />
-          </Link>
+          </a>
         </div>
 
         <ul className={styles.footerBlock}>
           <li className={styles.listItem}>
-            <Link href={`/${locale}#about`}
+            <a href={`/${locale}#about`}
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
               {dictionary.about}
-            </Link>
+            </a>
           </li>
 
           <li className={styles.listItem}>
-            <Link href={`/${locale}#services`}
+            <a href={`/${locale}#services`}
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
               {dictionary.services}
-            </Link>
+            </a>
           </li>
 
           <li className={styles.listItem}>
-            <Link href={`/${locale}#work`}
+            <a href={`/${locale}#work`}
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
               {dictionary.work}
-            </Link>
+            </a>
           </li>
 
           <li className={styles.listItem}>
-            <Link
+            <a
               href={`/${locale}#contact`}
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
               {dictionary.contact}
-            </Link>
+            </a>
           </li>
         </ul>
 
