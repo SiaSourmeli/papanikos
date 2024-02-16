@@ -23,6 +23,10 @@
     line-height: 24px;
   }
   
+  .imageWrap {
+    max-width: 700px;
+  }
+
   .aboutImage {
     border-radius: 24px;
   }
