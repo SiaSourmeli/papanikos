@@ -59,7 +59,7 @@
     color: var(--text-primary);
     text-decoration: none;
     transition: color 0.3s ease;
-    font-size: 16px;
+    font-size: 14px;
   }
   
   .navLink:hover,
@@ -110,10 +110,10 @@
       padding: 0px;
       flex-direction: row;
     }
-  
+  }
+
+  @media only screen and (min-width: 1200px) {
     .navLink {
       font-size: 16px;
     }
-  }
-  
-  
+  } 

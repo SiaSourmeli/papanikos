@@ -52,7 +52,7 @@ const Header = ({ dictionary, locale }) => {
       <nav className={styles.navbar}>
         <div className={styles.headerContainer}>
           <div className={styles.logoHeader}>
-            <a href={`${locale}/`}>
+            <a href={`/${locale}`}>
               <Logo />
             </a>
           </div>
