@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 100px;
   }
 
   .buttonWrap {
@@ -35,6 +34,10 @@
   }
   
   @media only screen and (min-width: 1200px) {
+    .workHeader {
+      padding-top: 100px;
+    }
+
     .workGrid {
       grid-template-columns: auto auto auto;
     }
