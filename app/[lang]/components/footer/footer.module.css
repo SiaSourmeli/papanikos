@@ -55,7 +55,9 @@
   margin-right: auto;
   padding-top: 10px;
   color: var(--background);
-  max-width: 1400px;
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 1650px;
 }
 
 .footerDivider {
@@ -67,8 +69,7 @@
 .copyright {
   padding-top: 30px;
   padding-bottom: 30px;
-  font-size: 13px;
-  padding-left: 30px;
+  font-size: 12px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -79,5 +80,9 @@
 
   .footerBlock {
     padding-right: 20px;
+  }
+
+  .copyright {
+    font-size: 13px;
   }
 }

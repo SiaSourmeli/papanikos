@@ -11,9 +11,9 @@ const About = ({ dictionary }) => {
           <p className={styles.aboutText}>{dictionary.text}</p>
         </div>
 
-        <div>
+        <div className={styles.imageWrap}>
           <img
-            src="https://ucarecdn.com/c2613cfc-7b62-4bff-95aa-1c49f5102ebf/-/preview/700x700/-/quality/smart_retina/-/format/auto/"
+            src="https://ucarecdn.com/397721c5-4ddc-4313-bde3-42a569880fbe/ABOUT_72dpi.jpg"
             className={styles.aboutImage}
             alt="Workshop"
           />

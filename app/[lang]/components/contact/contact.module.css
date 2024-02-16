@@ -1,98 +1,99 @@
 /*Contact*/
 .contactContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+
+.contactHeader {
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  color: var(--text-primary);
+}
+
+.contactSub {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--text-primary);
+}
+
+.buttonWrap {
+  padding-top: 24px;
+}
+
+.contactInfo {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-top: 8px;
+
+  display: inline-block;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.form {
+  border: 1px solid var(--text-primary);
+  border-radius: 24px;
+  margin-bottom: 0;
+  margin-top: 40px;
+  padding: 50px;
+  max-width: 550px;
+}
+
+.formWrap {
+  width: 100%;
+  flex: 0 auto;
+}
+
+.formField {
+  color: var(--text-primary);
+  background-color: transparent;
+  border: 1px var(--text-primary);
+  font-family: "Cousine", monospace, "Gothic A1", sans-serif;
+  border-bottom: 1px solid;
+  margin-bottom: 40px;
+  padding-bottom: 8px;
+  padding-left: 0;
+  font-weight: 500;
+  line-height: 20px;
+  display: block;
+  width: 100%;
+  resize: none;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.formField:focus {
+  outline: none;
+}
+
+.textArea {
+  min-height: 150px;
+}
+
+@media (min-width: 768px) {
+  .contact {
     display: flex;
     justify-content: center;
-    padding-bottom: 200px;
-  }
-  
-  .contact {
-    padding-top: 100px;
-  }
-
-  .contactHeader {
-    letter-spacing: 1px;
-    padding-bottom: 10px;
-    color: var(--text-primary);
-
-  }
-  
-  .contactSub {
-    margin-top: 20px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px; 
-    color: var(--text-primary);
-  }
-  
-  .buttonWrap {
-    padding-top: 24px;
+    gap: 100px;
   }
 
   .contactInfo {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    padding-top: 8px;
-
     display: inline-block;
     text-decoration: none;
     color: var(--text-primary);
   }
-  
-  .form {
-    border: 1px solid var(--text-primary);
-    border-radius: 24px;
-    margin-bottom: 0;
-    margin-top: 40px;
-    padding: 50px;
-    max-width: 550px;
-  }
-  
-  .formWrap {
-    width: 100%;
-    flex: 0 auto;
-  }
-  
-  .formField {
-    color: var(--text-primary);
-    background-color:  transparent;
-    border: 1px var(--text-primary);
-    font-family: 'Cousine',monospace, 'Gothic A1', sans-serif;
-    border-bottom: 1px solid ;
-    margin-bottom: 40px;
-    padding-bottom: 8px;
-    padding-left: 0;
-    font-weight: 500;
-    line-height: 20px;
-    display: block;
-    width: 100%;
-    resize: none;
-    font-size: 16px;
-    font-style: normal;
-  }
-  
-  .formField:focus  {
-    outline: none;
-  }
-  
-  .textArea {
-    min-height: 150px;
-  }
-  
-  @media (min-width: 768px) {
-    .contact {
-      display: flex;    
-      justify-content: center;
-      gap: 100px;
-    }
-    
-     .contactInfo{
-        display: inline-block;
-        text-decoration: none;
-        color: var(--text-primary);
-      }
 
-    .form {
-       margin-top: 0;
-     }
+  .form {
+    margin-top: 0;
   }
+}
+
+@media (min-width: 1200px) {
+  .contact {
+    padding-top: 100px;
+  }
+}

@@ -21,7 +21,7 @@ const Services = ({ dictionary }) => {
             <p className={styles.serviceText}>{dictionary.text1}</p>
           </div>
           <img
-            src="https://ucarecdn.com/a94a7692-0504-4add-9969-af68739a0466/services_01169.jpg"
+            src="https://ucarecdn.com/ceb8bd67-b0b1-4c44-adad-3326eb6569d7/MATERIAL_72dpi.jpg"
             className={styles.serviceImage}
             alt="Material Supply"
           />
@@ -39,7 +39,7 @@ const Services = ({ dictionary }) => {
             <p className={styles.serviceText}>{dictionary.text2}</p>
           </div>
           <img
-            src="https://ucarecdn.com/1d760fb1-4570-45d9-9439-5f94a6257709/services_02169.jpg"
+            src="https://ucarecdn.com/027b5c73-c10b-4a17-8d1c-f1cc1af38111/LASERCUT_72dpi.jpg"
             className={styles.serviceImage}
             alt="Material Supply"
           />
@@ -57,7 +57,7 @@ const Services = ({ dictionary }) => {
             <p className={styles.serviceText}>{dictionary.text3}</p>
           </div>
           <img
-            src="https://ucarecdn.com/2fa15d3d-6209-4199-97fc-32e17f58cd4c/services_03169.jpg"
+            src="https://ucarecdn.com/469860d2-ea31-49e2-ab5e-50bbcf58f712/BEND_72dpi.jpg"
             className={styles.serviceImage}
             alt="Material Supply"
           />
@@ -75,7 +75,7 @@ const Services = ({ dictionary }) => {
             <p className={styles.serviceText}>{dictionary.text4}</p>
           </div>
           <img
-            src="https://ucarecdn.com/2fa15d3d-6209-4199-97fc-32e17f58cd4c/services_03169.jpg"
+            src="https://ucarecdn.com/3b6cc50b-bc31-4ce3-93d3-c9f396634238/DESIGN_72dpi.jpg"
             className={styles.serviceImage}
             alt="Material Supply"
           />
@@ -93,7 +93,7 @@ const Services = ({ dictionary }) => {
             <p className={styles.serviceText}>{dictionary.text5}</p>
           </div>
           <img
-            src="https://ucarecdn.com/045e7289-168a-4e72-8982-96b544e35658/services_05169.jpg"
+            src="https://ucarecdn.com/455688aa-f525-446d-85ca-606b1357e5da/PRINT_72dpi.jpg"
             className={styles.serviceImage}
             alt="Material Supply"
           />
@@ -111,7 +111,7 @@ const Services = ({ dictionary }) => {
             <p className={styles.serviceText}>{dictionary.text6}</p>
           </div>
           <img
-            src="https://ucarecdn.com/892eccb9-d697-4930-b69e-48b2f1ada405/services_06169.jpg"
+            src="https://ucarecdn.com/a6c2398c-6c48-422a-926d-39e66fba0db8/SURFACE_72dpi.jpg"
             className={styles.serviceImage}
             alt="Material Supply"
           />

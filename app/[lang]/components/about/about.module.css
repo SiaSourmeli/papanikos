@@ -4,7 +4,6 @@
     display: flex;
     gap: 64px;
     align-items: center;
-    padding-top: 100px;
   }
   
   .textWrap {
@@ -24,17 +23,22 @@
     line-height: 24px;
   }
   
+  .imageWrap {
+    max-width: 700px;
+  }
+
   .aboutImage {
     border-radius: 24px;
   }
   
-  @media only screen and (min-width: 1280px) {
+  @media only screen and (min-width: 1200px) {
     .aboutContainer {
       flex-direction: row-reverse;
       justify-content: center;
       padding-left: 0;
       padding-right: 0;
-      gap: 32px;
+      gap: 50px;
+      padding-top: 100px;
     }
   }
   
