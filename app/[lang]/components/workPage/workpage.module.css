@@ -1,3 +1,7 @@
+.svg {
+  display: inline-flex;
+}
+
 .workGrid {
     gap: 10px;
     display: flex;

@@ -9,5 +9,5 @@ export default async function Work({
 }) {
   const dictionary = await getDictionary(lang);
 
-  return <WorkPage title={dictionary.Work.title} />;
+  return <WorkPage title={dictionary.Work.title} locale={lang} />;
 }
