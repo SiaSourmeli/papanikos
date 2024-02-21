@@ -7,6 +7,7 @@ import Contact from "./components/contact";
 
 import { getDictionary } from "../../get-dictionary";
 import { Locale } from "../../i18n-config";
+import Gallery from "./components/Gallery";
 
 export default async function Home({
   params: { lang },
@@ -27,6 +28,7 @@ export default async function Home({
       <Services dictionary={dictionary.Services} />
       <Work dictionary={dictionary.Work} locale={lang} />
       <Contact dictionary={dictionary.Contact} />
+      <Gallery />
     </div>
   );
 }
