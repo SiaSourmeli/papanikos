@@ -13,10 +13,12 @@ function workPage({ title, locale }) {
   return (
     <div className="pageContainer">
       <div>
-        <Link href={`/${locale}`}>
-          <Image src={backIcon} className={`${styles.svg} button-40`} alt="back button"/>
-        </Link>
-        {/* <h1 className={headerFont.className}>{title}</h1> */}
+        <div className={styles.btnWrap}>
+          <Link href={`/${locale}`}>
+            <Image src={backIcon} className={`${styles.svg} button-40`} alt="back button"/>
+          </Link>
+          {/* <h1 className={headerFont.className}>{title}</h1> */}
+        </div>
 
         <div className={styles.workGrid}>
         <PhotoAlbum 

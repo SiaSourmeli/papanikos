@@ -7,7 +7,16 @@
   .buttonWrap {
     align-items: center;
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+  }
+
+  .showAllBtn { 
+    display: none;
+  }
+
+  .plusBtn {
+    font-size: 25px;
+    display: block;
   }
     
   .link {
@@ -22,6 +31,17 @@
   
   .workImages {
     border-radius: 24px;
+  }
+
+
+  @media only screen and (min-width: 640px) {
+    .showAllBtn { 
+      display: block;
+    }
+
+    .plusBtn {
+      display: none;
+    }
   }
 
   @media only screen and (min-width: 768px) {

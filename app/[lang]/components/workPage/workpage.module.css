@@ -1,3 +1,8 @@
+.btnWrap {
+  display: flex;
+  justify-content: right;
+}
+
 .svg {
   display: inline-flex;
 }
