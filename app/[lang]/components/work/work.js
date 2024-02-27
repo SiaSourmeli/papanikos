@@ -12,7 +12,8 @@ const Work = ({ dictionary, locale }) => {
         </h1>
         <div className={styles.buttonWrap}>
           <Link href={`${locale}/work`} className={`${styles.link} button-40`}>
-              {dictionary.showAll}
+              <span className={styles.showAllBtn}>{dictionary.showAll}</span>
+              <span className={styles.plusBtn}>+</span>
           </Link>
         </div>
       </div>
