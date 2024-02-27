@@ -1,11 +1,13 @@
+"use client";
+
 import styles from "./topBar.module.css";
 import Image from "next/image";
 import telIcon from "../../../../assets/tel.svg";
 import mailIcon from "../../../../assets/mail.svg";
 import LocaleSwitcher from "../locale-switcher/locale-switcher";
+import { useRouter } from "next/navigation";
 
-const TopBar = () => {
-    
+const TopBar = ({ activeLang }) => {
   return (
     <div className={styles.topBarContainer}>
       <ul className={styles.topBar}>
@@ -20,7 +22,7 @@ const TopBar = () => {
         </li>
 
         <li>
-          <LocaleSwitcher />
+          <LocaleSwitcher activeLang={activeLang} />
         </li>
       </ul>
 

@@ -9,12 +9,16 @@
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.2",
+    "envalid": "^8.0.0",
     "negotiator": "^0.6.3",
     "next": "^14.0.1",
+    "plaiceholder": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-photo-album": "^2.3.1",
     "server-only": "^0.0.1",
-    "use-local-storage": "^3.0.0"
+    "use-local-storage": "^3.0.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "20.10.4",

@@ -28,7 +28,6 @@
   font-weight: 400;
   line-height: 20px;
   padding-top: 8px;
-
   display: inline-block;
   text-decoration: none;
   color: var(--text-primary);
@@ -72,6 +71,13 @@
 
 .textArea {
   min-height: 150px;
+}
+
+@media (max-width: 1000px) {
+  .contactInfo:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
 }
 
 @media (min-width: 768px) {
