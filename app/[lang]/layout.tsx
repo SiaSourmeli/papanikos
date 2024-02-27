@@ -27,7 +27,7 @@ export default async function Layout({
   return (
     <html lang={params.lang} className={cousine.className}> 
       <body> 
-        <TopBar />
+        <TopBar activeLang={params.lang} />
         <Header dictionary={dictionary.Header} locale={params.lang} />
         <main>{children}</main>
         <Footer dictionary={dictionary.Footer} locale={params.lang}/>

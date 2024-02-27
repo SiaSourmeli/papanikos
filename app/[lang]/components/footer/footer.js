@@ -54,7 +54,7 @@ function Footer({ dictionary, locale }) {
             <h3 className={styles.footerHeader}> {dictionary.location}</h3>
           </li>
 
-          <li>
+          <li className={styles.listItem}>
             <div className={styles.locationWrap}>
               <svg
                 className={styles.locationPin}
@@ -82,7 +82,7 @@ function Footer({ dictionary, locale }) {
           <li>
             <h3 className={styles.footerHeader}>{dictionary.contactUs}</h3>
           </li>
-          <li>
+          <li className={styles.listItem}>
             <a
               href="mailto:laz.papanikos@gmail.com"
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}

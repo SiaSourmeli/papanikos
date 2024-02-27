@@ -3,27 +3,10 @@
 }
 
 .workGrid {
-    gap: 10px;
-    display: flex;
-    flex-direction: column;
-    padding-top: 24px;
-  }
+  padding-top: 24px;
+}
 
-  .image {
-    border-radius: 24px;
-  }
+.workGrid img {
+  border-radius: 24px;
+}
 
-  @media only screen and (min-width: 768px) {
-    .workGrid {
-      display: grid;
-      grid-template-columns: auto auto;
-      column-gap: 10px;
-      row-gap: 10px;
-    }
-  }
-  
-  @media only screen and (min-width: 1200px) {
-    .workGrid {
-      grid-template-columns: auto auto auto;
-    }
-  }

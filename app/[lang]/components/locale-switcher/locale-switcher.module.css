@@ -3,3 +3,7 @@
     gap: 5px;
     padding-inline-start: 0;
   }
+
+  .languagesUl .activeLanguage {
+    text-decoration: underline;
+  }

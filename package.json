@@ -15,6 +15,7 @@
     "plaiceholder": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-photo-album": "^2.3.1",
     "server-only": "^0.0.1",
     "use-local-storage": "^3.0.0",
     "zod": "^3.22.4"
