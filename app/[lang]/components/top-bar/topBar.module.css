@@ -14,7 +14,7 @@
   padding-right: 10px;
   padding-right: 10px;
   padding-inline-start: 0;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .svg {
@@ -23,13 +23,14 @@
 
 .topBar li {
   display: flex;
-  gap: 10px;
 }
 
 .topBar li a {
   color: white;
   text-decoration: none;
   text-align: center;
+  display: flex;
+  gap: 10px;
 }
 
 /* .headerDivider {
@@ -38,10 +39,19 @@
     border-style: solid;
   } */
 
+ .mailText {
+  display: none;
+ }
+
+
 @media only screen and (min-width: 450px) {
   .topBar {
     font-size: 13px;
   }
+
+  .mailText {
+    display: flex;
+   }
 }
 
 @media only screen and (min-width: 768px) {

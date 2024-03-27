@@ -1,64 +1,125 @@
-  .workHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.workHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .buttonWrap {
-    align-items: center;
-    display: flex;
-    padding-bottom: 20px;
-  }
+.buttonWrap {
+  align-items: center;
+  display: flex;
+  padding-bottom: 20px;
+}
 
-  .showAllBtn { 
-    display: none;
+.showAllBtn {
+  display: none;
+}
+
+.plusBtn {
+  font-size: 25px;
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* .workGrid {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+} */
+
+.grid {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.workImages {
+  border-radius: 24px;
+}
+
+.itemG {
+  display: none;
+}
+
+.itemGMobile {
+  display: flex;
+}
+
+@media only screen and (min-width: 640px) {
+  .showAllBtn {
+    display: block;
   }
 
   .plusBtn {
-    font-size: 25px;
-    display: block;
+    display: none;
   }
-    
-  .link {
-    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  /* .workGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+  } */
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px 10px;
+    grid-template-areas:
+    "one two three"
+    "four four five"
+    "six seven seven";
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
   }
 
-  .workGrid {
-    gap: 20px;
+  .itemA {
+    grid-area: one;
+  }
+
+  .itemB {
+    grid-area: two;
+  }
+
+  .itemC {
+    grid-area: three;
+  }
+
+  .itemD {
+    grid-area: four;
+  }
+
+  .itemE {
+    grid-area: five;
+  }
+
+  .itemF {
+    grid-area: six;
+  }
+
+  .itemG {
+    grid-area: seven;
     display: flex;
-    flex-direction: column;
-  }
-  
-  .workImages {
-    border-radius: 24px;
   }
 
+  .itemGMobile {
+    display: none;
+  }
+}
 
-  @media only screen and (min-width: 640px) {
-    .showAllBtn { 
-      display: block;
-    }
-
-    .plusBtn {
-      display: none;
-    }
+@media only screen and (min-width: 1200px) {
+  .workHeader {
+    padding-top: 100px;
   }
 
-  @media only screen and (min-width: 768px) {
-    .workGrid {
-      display: grid;
-      grid-template-columns: auto auto;
-      column-gap: 10px;
-      row-gap: 10px;
-    }
-  }
-  
-  @media only screen and (min-width: 1200px) {
-    .workHeader {
-      padding-top: 100px;
-    }
-
-    .workGrid {
-      grid-template-columns: auto auto auto;
-    }
-  }
+  /* .workGrid {
+    grid-template-columns: auto auto auto;
+  } */
+}

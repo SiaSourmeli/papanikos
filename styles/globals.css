@@ -157,28 +157,3 @@ img {
     height: 0;
   }
 }
-
-/* Gallery */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
-.class {
-  grid-auto-rows: 10px;
-}
-
-.linkClass {
-  display: grid;
-  place-content: center;
-}
-
-.imageContainer {
-  width: 250px;
-  justify-self: center;
-}
-
-.imageWrap {
-  border-radius: 15px;
-  overflow: hidden;
-}

@@ -12,13 +12,19 @@ const TopBar = ({ activeLang }) => {
     <div className={styles.topBarContainer}>
       <ul className={styles.topBar}>
         <li>
-          <Image src={telIcon} className={styles.svg} alt="Telephone" />
-          <a href="tel:210 9910151">210 9910151</a>
+          <a href="tel:210 9910151">
+            <Image src={telIcon} className={styles.svg} alt="Telephone" />
+            <p>210 9910151</p>
+          </a>
+       
         </li>
 
         <li>
-          <Image src={mailIcon} className={styles.svg} alt="Email" />
-          <a href="mailto:laz.papanikos@gmail.com">laz.papanikos@gmail.com</a>
+          <a href="mailto:laz.papanikos@gmail.com">
+            <Image src={mailIcon} className={styles.svg} alt="Email" />
+            <p className={styles.mailText}>laz.papanikos@gmail.com</p>
+        </a>
+          
         </li>
 
         <li>
